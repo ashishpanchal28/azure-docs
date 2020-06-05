@@ -133,7 +133,8 @@ The Oracle software is already installed on the Marketplace image. Create a samp
            -databaseType MULTIPURPOSE \
            -automaticMemoryManagement false \
            -storageType FS \
-           -ignorePreReqs
+           -ignorePreReqs \
+           -datafileDestination /u01/data
     ```
 
     It takes a few minutes to create the database.
