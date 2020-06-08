@@ -175,6 +175,7 @@ For a GUI management tool that you can use to explore the database, set up Oracl
 3. Open the container PDB1 if not already opened, but first check the status:
 
     ```bash
+    column name format a25;
     select con_id, name, open_mode from v$pdbs;
     ```
 
